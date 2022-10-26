@@ -1,0 +1,30 @@
+#partners img {
+  object-fit: cover;
+  object-position: center;
+  height: 15vh;
+  overflow: hidden;
+}
+
+#partners .carousel-item:before {
+  content: "";
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.services img {
+  object-fit: cover;
+  object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.register img {
+  object-fit: cover;
+  object-position: center;
+  height: 40vh;
+  overflow: hidden;
+}
